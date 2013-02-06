@@ -14,15 +14,12 @@ iOS Component which generates PDF file from a view.
 3. Include (#import) ViewToPDF.h file to the ViewController from which you would like to render PDF file.
 
 # Properties
-1. NSString *fullPDFPath - full path to the rendered PDF file
+- NSString *fullPDFPath - full path to the rendered PDF file
 
 # Methods
-1. initWithView:(UIView*)view andPDFFileName:(NSString*)PDFFileName
-parameters:
-1.1 view - UIView to render PDF from
-1.2 PDFFileName - name of the PDF file
+- initWithView:(UIView*)view andPDFFileName:(NSString*)PDFFileName - initialisation method
 
-2. render - render PDF file from specified view
+- render - render PDF file from specified view
 
 # Example
 	// Create and instance of viewToPDF
