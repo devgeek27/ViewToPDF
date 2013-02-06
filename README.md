@@ -18,9 +18,8 @@ iOS Component which generates PDF file from a view.
 
 # Methods
 - initWithView:(UIView*)view andPDFFileName:(NSString*)PDFFileName
-parameters:
-@view - UIView to render PDF from
-@PDFFileName - name of the PDF file
+1. view - UIView to render PDF from
+2. PDFFileName - name of the PDF file
 
 - render - render PDF file from specified view
 
