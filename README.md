@@ -17,9 +17,7 @@ iOS Component which generates PDF file from a view.
 - NSString *fullPDFPath - full path to the rendered PDF file
 
 # Methods
-- initWithView:(UIView*)view andPDFFileName:(NSString*)PDFFileName
-1. view - UIView to render PDF from
-2. PDFFileName - name of the PDF file
+- initWithView:(UIView*)view andPDFFileName:(NSString*)PDFFileName - initialisation method
 
 - render - render PDF file from specified view
 
